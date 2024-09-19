@@ -1,0 +1,91 @@
+.carduc {
+    background-color: #ffffffd6;
+    border-radius: 8px;
+    padding: 0.5vw;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    max-width: 19vw;
+}
+
+.idpuc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5vw;
+}
+
+.idpuc div {
+    font-size: 1vw;
+    color: #666;
+    font-weight: 500;
+}
+
+.idpuc img {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.tuc {
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5vw;
+}
+
+.infouc {
+    display: flex;
+}
+
+.infouc div {
+    margin-left: 4px;
+  font-size: 1vw;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.infouc div {
+    background-color: #ffffff;
+    padding: 0.3vw 0.2vw;
+    border-radius: 0.2vw;
+}
+.infouc.div img{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+}
+.priority{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.miduc{
+    display: flex;
+}
+.miduc span{
+    margin-left: 4px;
+}
+.miduc span img{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+}
+
+.userAvatarContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  
+  .availabilityIndicator {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
